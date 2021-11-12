@@ -1,0 +1,134 @@
+table {
+	/* border: 선두께 선종류 선색상; */
+	border: 0px solid tomato;
+}
+tr {
+	height: 80px;
+	border-width: 0px;
+}
+/* 
+	css 색상 이름 => http://ielselog.blogspot.com/2013/10/css-color-keywords.html
+	class 속성은 여러군데에 지정할 수 있다.	스타일을 지정할 때 class는 "."으로 표현한다. 
+	id 속성은 딱 한군데만 지정할 수 있다. 스타일을 지정할 때 id는 "#"으로 표현한다.
+*/
+th{
+	border-width: 0px;
+}
+th#title {
+	font-size: 30pt;
+	font-family: D2Coding;
+	font-weight: bold;
+	color: maroon;
+}
+td {
+	border: 1px solid black;
+	border-radius: 15px;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+}
+td#sunday {
+	font-size: 20pt;
+	background-color: red;
+	color: white;
+}
+td.etcday {
+	font-size: 20pt;
+	background-color: black;
+	color: white;
+}
+td#saturday {
+	font-size: 20pt;
+	background-color: blue;
+	color: white;
+}
+td.sun {
+	color: red;
+	text-align: right;
+	vertical-align: top; 
+	font-size: 15pt;
+}
+td.sat {
+	color: blue;
+	text-align: right;
+	vertical-align: top;
+	font-size: 15pt;
+}
+td.etc {
+	text-align: right;
+	vertical-align: top;
+	font-size: 15pt;
+}
+td.lastSun {
+	color: red;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background-color: whitesmoke;
+}
+td.lastMon {
+	color: black;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background-color: whitesmoke;
+}
+td.nextSat {
+	color: blue;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background-color: whitesmoke;
+}
+td.nextMon {
+	color: black;
+	text-align: right;
+	vertical-align: top;
+	font-size: 10pt;
+	background-color: whitesmoke;
+}
+td.holiday {
+	color: red;
+	text-align: right;
+	vertical-align: top;
+	font-size: 15pt;
+	background-color: yellow;
+}
+span {
+	font-size: 9pt;
+}
+/* 
+	하이퍼링크 스타일 지정하기 
+	link => 한 번도 클릭하지 않은 하이퍼링크
+	visited => 한 번 이상 클릭한 하이퍼링크
+	hover => 마우스를 올리고 있을 때
+	active => 마우스로 누르고 있을 때
+	a:link {
+		color: black;
+		text-decoration: none;
+	}
+	a:visited {
+		color: black;
+		text-decoration: none;
+	}
+*/
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: yellowgreen;
+	text-decoration: none;
+}
+/*
+	select.select는 select 태그의 class 속성이 select인 모든 요소를 선택한다.
+	.select는 태그에 상관없이 속성이 select인 모든 요소를 선택한다.
+ */
+.select {
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+}
